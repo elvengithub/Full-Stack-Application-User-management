@@ -16,7 +16,8 @@ const allowedOrigins = [
     'http://localhost:4200',
     'http://localhost:3000',
     'http://127.0.0.1:4200',
-    'https://user-management-full-stack-application.vercel.app'
+    'https://full-stack-application-user-management.vercel.app',
+    'https://www.full-stack-application-user-management.vercel.app'
 ];
 
 // Parse JSON and URL-encoded data

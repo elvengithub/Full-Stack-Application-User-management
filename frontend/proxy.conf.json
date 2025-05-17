@@ -1,6 +1,6 @@
 {
   "/accounts": {
-    "target": "https://user-management-full-stack-application.onrender.com",
+    "target": "full-stack-application-user-management.onrender.com",
     "secure": true,
     "changeOrigin": true,
     "logLevel": "debug",
