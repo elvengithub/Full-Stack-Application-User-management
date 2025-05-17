@@ -5,10 +5,10 @@ const isVercel = hostname.includes('vercel.app');
 
 export const environment = {
     production: true,
-    apiUrl: 'https://full-stack-application-user-management.onrender.com/accounts',
+    apiUrl: 'https://full-stack-application-user-management-1.onrender.com/accounts',
     wsUrl: isLocalhost
         ? 'ws://localhost:4000'
-        : 'wss://full-stack-application-user-management.onrender.com',
+        : 'wss://full-stack-application-user-management-1.onrender.com',
     cookieDomain: isLocalhost 
         ? undefined 
         : isVercel 

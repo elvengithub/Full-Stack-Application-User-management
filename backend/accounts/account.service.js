@@ -309,7 +309,7 @@ function basicDetails(account) {
 
 async function sendVerificationEmail(account, origin) {
     // Always use proper production URL if no origin provided
-    const productionUrl = 'https://full-stack-application-user-management.vercel.app';
+    const productionUrl = 'https://full-stack-application-user-management-casinillo.vercel.app';
     const verifyUrl = `${origin || productionUrl}/account/verify-email?token=${account.verificationToken}`;
     
     const emailTemplate = `
@@ -406,7 +406,7 @@ async function sendVerificationEmail(account, origin) {
 
 async function sendAlreadyRegisteredEmail(email, origin) {
     // Always use proper production URL if no origin provided
-    const productionUrl = 'https://full-stack-application-user-management.vercel.app';
+    const productionUrl = 'https://full-stack-application-user-management-casinillo.vercel.app';
     const resetUrl = `${origin || productionUrl}/account/forgot-password`;
     
     const emailTemplate = `
@@ -509,7 +509,7 @@ async function sendAlreadyRegisteredEmail(email, origin) {
 
 async function sendPasswordResetEmail(account, origin) {
     // Always use proper production URL if no origin provided
-    const productionUrl = 'https://full-stack-application-user-management.vercel.app';
+    const productionUrl = 'https://full-stack-application-user-management-casinillo.vercel.app';
     const resetUrl = `${origin || productionUrl}/account/reset-password?token=${account.resetToken}`;
     
     const emailTemplate = `
