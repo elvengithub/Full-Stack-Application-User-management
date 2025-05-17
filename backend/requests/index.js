@@ -14,7 +14,6 @@ router.delete('/:id', authorize(Role.Admin), _delete);
 
 async function create(req, res, next) {
     try {
-        // Ensure employeeId is properly set
         if (!req.body.employeeId && req.user) {
             // Get the employee ID from the account
             const account = await db.Account.findByPk(req.user.id);
