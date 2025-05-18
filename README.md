@@ -2,8 +2,8 @@
 
 Gabato_Frontend Branch
 
-Frontend - 
-Backend - 
+Frontend - https://full-stack-application-user-management-gabato.vercel.app
+Backend - https://full-stack-application-user-management-3.onrender.com
 
 ## Overview
 
