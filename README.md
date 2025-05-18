@@ -1,9 +1,9 @@
 # User Management System
 
-Diaz_Backend Branch
+Gabato_Frontend Branch
 
-Frontend - https://full-stack-application-user-management.vercel.app
-Backend - https://full-stack-application-user-management.onrender.com
+Frontend - 
+Backend - 
 
 ## Overview
 
