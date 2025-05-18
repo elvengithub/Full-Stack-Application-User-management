@@ -8,6 +8,6 @@ export const environment = {
     apiUrl: 'https://full-stack-application-user-management-2.onrender.com/accounts',
     wsUrl: isLocalhost
         ? 'ws://localhost:4000'
-        : 'wss://full-stack-application-user-management-panibon.onrender.com'
+        : 'wss://full-stack-application-user-management-2.onrender.com'
 };
 
