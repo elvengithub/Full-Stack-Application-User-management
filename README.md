@@ -1,9 +1,9 @@
 # User Management System
 
-Diaz_Backend Branch
+Panibon_Backend Branch
 
-Frontend - https://full-stack-application-user-management.vercel.app
-Backend - https://full-stack-application-user-management.onrender.com
+full-stack-application-user-management-panibon.vercel.app/
+Backend - https://full-stack-application-user-management-panibon.onrender.com
 
 ## Overview
 
